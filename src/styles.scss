@@ -1,12 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~prismjs/plugins/toolbar/prism-toolbar.css";
+@import "~prismjs/themes/prism";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 h2 {
   line-height: 20px;
 }
+h5 {
+  margin: 0;
+}
 a {
   text-decoration: none;
+}
+pre {
+  cursor: pointer;
 }
 .smaller {
   font-size: smaller;
@@ -15,9 +22,10 @@ a {
 .page {
   padding: 6px 24px;
 }
-.op {
-  font-family: monospace;
+
+
+.file-name {
+  font-family: monospace, consolas;
   color: #0074E8;
+  margin: 0;
 }
-
-

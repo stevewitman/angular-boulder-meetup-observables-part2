@@ -4,6 +4,7 @@
 
 .sidenav {
   width: 120px;
+  background-color: #222;
 }
 
 .sidenav .mat-toolbar {
@@ -18,11 +19,24 @@
 .header {
   padding-left: 8px;
 }
+.toolbar {
+  background-color: #65D9EF;
+  color: #000;
+}
+.mat-nav-list {
+  padding: 0;
+}
 .mat-list-item {
+  color: #FFF;
   font-weight: 100;
 }
 
 .link-active {
-  color: #0074E8;
-  font-weight: 500;
+  background-color: #000 !important;
+  color: #ADFF2F;
+  font-weight: 300;
+}
+
+.link-active:hover {
+  background-color: #000;
 }

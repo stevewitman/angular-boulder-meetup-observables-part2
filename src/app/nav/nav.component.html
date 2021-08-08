@@ -2,7 +2,8 @@
   <mat-sidenav #drawer class="sidenav" fixedInViewport
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="'side'"
-      [opened]="(isHandset$ | async) === false">
+      [opened]="true">
+      <!-- [opened]="(isHandset$ | async) === false"> -->
     <mat-toolbar></mat-toolbar>
     <mat-nav-list>
       <a
@@ -15,19 +16,29 @@
         [routerLink]="['/example-2']"
         routerLinkActive="link-active">Example 2
       </a>
+      <a
+        mat-list-item
+        [routerLink]="['/example-3']"
+        routerLinkActive="link-active">Example 3
+      </a>
+      <a
+        mat-list-item
+        [routerLink]="['/example-4']"
+        routerLinkActive="link-active">Example 4
+      </a>
 
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button
+    <mat-toolbar class="toolbar">
+      <!-- <button
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-      </button>
+      </button> -->
       <span class="header">RxJS Operators</span>
     </mat-toolbar>
     <!-- Add Content Here -->

@@ -1,0 +1,27 @@
+.operator {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  display: flex; 
+  justify-content:flex-end;
+  position: relative;
+  top: 10px;
+  right: -10px;
+}
+
+.op {
+  font-family: monospace;
+  color: #000;
+}
+
+.type {
+  color: #666;
+  font-size: smaller;
+  font-weight: 400;
+  font-style: italic;
+}

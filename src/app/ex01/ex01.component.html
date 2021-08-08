@@ -1,8 +1,26 @@
 <div class="page">
-  <h2>
-    <a href="https://rxjs.dev/api/index/function/of"><span class="op">of()</span></a>
-  </h2>
-  <h2>
-    <a href="https://rxjs.dev/api/index/function/from"><span class="op">from()</span></a>
-  </h2>
+  <app-operator [operator]="'of'"></app-operator>
+
+<pre (click)="of1()" [class.active] = "active === 'of1'"><code class="language-typescript">of(1, 2, 3)
+  .subscribe(console.log);
+</code></pre>
+
+<pre (click)="of2()" [class.active] = "active === 'of2'"><code class="language-typescript">of('Some string')
+  .subscribe(console.log);
+</code></pre>
+
+<pre (click)="of3()" [class.active] = "active === 'of3'"><code class="language-typescript">of([10, 20, 30])
+  .subscribe(console.log);
+</code></pre>
+
+  <app-operator [operator]="'from'"></app-operator>
+
+<pre (click)="from1()" [class.active] = "active === 'from1'"><code class="language-typescript">from([12, 24, 36])
+  .subscribe(console.log);
+</code></pre>
+
+<pre (click)="from2()" [class.active] = "active === 'from2'"><code class="language-typescript">from('RxJS')
+  .subscribe(console.log);
+</code></pre>
+
 </div>

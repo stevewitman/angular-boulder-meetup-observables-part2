@@ -1,0 +1,84 @@
+{
+  "operators": {
+    "ajax": {
+      "name": "ajax",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/ajax",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/ajax",
+      "marblesUrl": "https://rxmarbles.com/#ajax"
+    },
+
+    "from": {
+      "name": "from",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/from",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/from",
+      "marblesUrl": "https://rxmarbles.com/#from"
+    },
+
+    "fromEvent": {
+      "name": "fromEvent",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/fromEvent",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/fromevent",
+      "marblesUrl": ""
+    },
+
+    "interval": {
+      "name": "interval",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/interval",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/interval",
+      "marblesUrl": "https://rxmarbles.com/#interval"
+    },
+
+    "map": {
+      "name": "map",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/map",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/map",
+      "marblesUrl": "https://rxmarbles.com/#map"
+    },
+
+    "of": {
+      "name": "of",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/of",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/of",
+      "marblesUrl": "https://rxmarbles.com/#of"
+    },
+
+    "pipe": {
+      "name": "pipe",
+      "type": "method on Observable interface",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/pipe",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/concepts/rxjs-primer#pipe",
+      "marblesUrl": ""
+    },
+
+    "pluck": {
+      "name": "pluck",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/pluck",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/pluck",
+      "marblesUrl": "https://rxmarbles.com/#pluck"
+    },
+
+    "tap": {
+      "name": "tap",
+      "type": "utility operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/tap",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/utility/do",
+      "marblesUrl": ""
+    },
+
+    "timer": {
+      "name": "timer",
+      "type": "creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/timer",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/timer",
+      "marblesUrl": "https://rxmarbles.com/#timer"
+    }
+
+  }
+}

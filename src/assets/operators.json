@@ -8,6 +8,14 @@
       "marblesUrl": "https://rxmarbles.com/#ajax"
     },
 
+    "combineLatest": {
+      "name": "combineLatest",
+      "type": "join creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/combineLatest",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/combinelatest",
+      "marblesUrl": "https://rxmarbles.com/#combineLatest"
+    },
+
     "from": {
       "name": "from",
       "type": "creation operator",
@@ -59,6 +67,14 @@
     "pluck": {
       "name": "pluck",
       "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/pluck",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/pluck",
+      "marblesUrl": "https://rxmarbles.com/#pluck"
+    },
+
+    "skip": {
+      "name": "skip",
+      "type": "filtering operator",
       "rxjsdevUrl": "https://rxjs.dev/api/operators/pluck",
       "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/pluck",
       "marblesUrl": "https://rxmarbles.com/#pluck"

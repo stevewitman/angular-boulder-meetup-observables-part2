@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { map, pluck, tap } from 'rxjs/operators';
+import { pluck, tap } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 
 import { HighlightService } from '../highlight.service';

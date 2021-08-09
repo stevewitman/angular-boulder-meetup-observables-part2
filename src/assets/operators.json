@@ -9,11 +9,19 @@
     },
 
     "combineLatest": {
-      "name": "combineLatest",
+      "name": "combineLatestWith",
       "type": "join creation operator",
       "rxjsdevUrl": "https://rxjs.dev/api/index/function/combineLatest",
       "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/combinelatest",
       "marblesUrl": "https://rxmarbles.com/#combineLatest"
+    },
+
+    "concat": {
+      "name": "concat",
+      "type": "join creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/concat",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/concat",
+      "marblesUrl": "https://rxmarbles.com/#concat"
     },
 
     "from": {
@@ -48,6 +56,22 @@
       "marblesUrl": "https://rxmarbles.com/#map"
     },
 
+    "mapTo": {
+      "name": "mapTo",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/mapTo",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/mapto",
+      "marblesUrl": "https://rxmarbles.com/#mapTo"
+    },
+
+    "merge": {
+      "name": "mergeWith",
+      "type": "join creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/merge",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/merge",
+      "marblesUrl": "https://rxmarbles.com/#merge"
+    },
+
     "of": {
       "name": "of",
       "type": "creation operator",
@@ -78,6 +102,14 @@
       "rxjsdevUrl": "https://rxjs.dev/api/operators/pluck",
       "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/pluck",
       "marblesUrl": "https://rxmarbles.com/#pluck"
+    },
+
+    "take": {
+      "name": "take",
+      "type": "filtering operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/take",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/filtering/take",
+      "marblesUrl": "https://rxmarbles.com/#take"
     },
 
     "tap": {

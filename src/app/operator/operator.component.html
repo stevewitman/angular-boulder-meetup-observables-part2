@@ -1,7 +1,7 @@
   <div class="operator">
     <div class="left">
       <h2>
-        <span class="op">{{dataName}}()</span>
+        <span class="op">{{dataName}}() </span>
         <span class="type"> {{dataType}}</span>
       </h2>
     </div>
@@ -10,13 +10,31 @@
         <mat-icon>more_vert</mat-icon>
       </button>
       <mat-menu #menu="matMenu">
-        <a mat-menu-item href="{{dataRxjsdevUrl}}" [disabled]="!dataRxjsdevUrl" target="_blank">
+        <a
+          mat-menu-item href="{{dataRxjsdevUrl}}"
+          [disabled]="!dataRxjsdevUrl"
+          target="_blank"
+          [matTooltip]="dataRxjsdevUrl"
+          matTooltipClass="resource-tooltip"
+          matTooltipPosition="before">
           <span>RxJS</span>
         </a>
-        <a mat-menu-item href="{{dataLearnrxUrl}}"[disabled]="!dataLearnrxUrl" target="_blank">
+        <a
+          mat-menu-item href="{{dataLearnrxUrl}}"
+          [disabled]="!dataLearnrxUrl"
+          target="_blank"
+          [matTooltip]="dataLearnrxUrl"
+          matTooltipClass="resource-tooltip"
+          matTooltipPosition="before">
           <span>Learn Rxjs</span>
         </a>
-        <a mat-menu-item href="{{dataMarblesUrl}}"[disabled]="!dataMarblesUrl" target="_blank">
+        <a
+          mat-menu-item href="{{dataMarblesUrl}}"
+          [disabled]="!dataMarblesUrl"
+          target="_blank"
+          [matTooltip]="dataMarblesUrl"
+          matTooltipClass="resource-tooltip"
+          matTooltipPosition="before">
           <span>Rxjs Marbles</span>
         </a>
       </mat-menu>

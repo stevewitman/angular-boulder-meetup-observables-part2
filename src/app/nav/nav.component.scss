@@ -40,3 +40,11 @@
 .link-active:hover {
   background-color: #000;
 }
+
+::ng-deep .menu-tooltip {
+  background: #65D9EF;
+  color: black !important;
+  font-size: 16px;
+  font-family: monospace;
+  max-width: 400px !important;
+}

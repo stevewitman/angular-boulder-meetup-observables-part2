@@ -1,10 +1,10 @@
-import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { pluck, skip } from 'rxjs/operators';
+import { mapTo } from 'rxjs/operators';
 
 import { HighlightService } from '../highlight.service';
-import { combineLatest, fromEvent, interval, Subscription, timer } from 'rxjs';
+import { interval, merge, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-ex05',
@@ -14,6 +14,7 @@ import { combineLatest, fromEvent, interval, Subscription, timer } from 'rxjs';
 export class Ex05Component implements OnInit, OnDestroy {
   active: string = '';
   val: any;
+  
   subscriptions = new Subscription();
 
   constructor(
@@ -33,29 +34,22 @@ export class Ex05Component implements OnInit, OnDestroy {
     this.subscriptions.unsubscribe();
   }
 
-  skip1() {
-    this.active = 'skip1';
+  mapTo1() {
+    this.active = 'mapTo1';
     console.clear();
-    this.logInConsole('interval(1000).pipe(skip(3)) started ...');
-    const timer$ = interval(1000)
-      .pipe(skip(3))
-      .subscribe(console.log)
+    this.logInConsole('emits the number 1 each second ...');
+    const timer$ = interval(1000).pipe(mapTo(1)).subscribe(console.log);
     this.subscriptions.add(timer$);
   }
 
-  combineLatest1() {
-    this.active = 'combineLatest1';
+  mergeWith1() {
+    this.active = 'mergeWith1';
     console.clear();
-    this.logInConsole('combineLatest started ...');
-    const timer$ = interval(1000).pipe(skip(3));
-    const clicker$ = fromEvent(document, 'click').pipe(
-      skip(1),
-      pluck('clientX')
-    );
-    const sub = combineLatest(timer$, clicker$).subscribe(
-      ([timerVal, clickerVal]) =>
-        console.log(`Timer: ${timerVal}, Clicker: ${clickerVal}`)
-    );
+    this.logInConsole('mergeWith() example started ...');
+    const stream0$ = interval(1500).pipe(mapTo('00'));
+    const stream1$ = interval(2400).pipe(mapTo('01'));
+    const stream2$ = interval(3200).pipe(mapTo('10'));
+    const sub = merge(stream0$, stream1$, stream2$).subscribe(console.log);
     this.subscriptions.add(sub);
   }
 

@@ -13,6 +13,8 @@ import { Ex02Component } from './ex02/ex02.component';
 import { Ex03Component } from './ex03/ex03.component';
 import { Ex04Component } from './ex04/ex04.component';
 import { Ex05Component } from './ex05/ex05.component';
+import { Ex06Component } from './ex06/ex06.component';
+import { Ex07Component } from './ex07/ex07.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -21,6 +23,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatTooltipModule } from '@angular/material/tooltip';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +36,8 @@ import { MatMenuModule } from '@angular/material/menu';
     Ex03Component,
     Ex04Component,
     Ex05Component,
+    Ex06Component,
+    Ex07Component,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +51,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatIconModule,
     MatListModule,
     MatMenuModule,
+    MatTooltipModule,
   ],
   providers: [HighlightService],
   bootstrap: [AppComponent],

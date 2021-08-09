@@ -25,3 +25,21 @@
   font-weight: 400;
   font-style: italic;
 }
+
+::ng-deep .resource-tooltip {
+  background: #666;
+  color: white !important;
+  font-size: 12px;
+  font-family: monospace;
+  max-width: 550px !important;
+}
+
+button:hover {
+  background-color: #65D9EF;
+  color: white;
+}
+
+.mat-icon {
+  position: relative;
+  bottom: 1px;
+}

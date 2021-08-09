@@ -15,6 +15,7 @@ import { Ex04Component } from './ex04/ex04.component';
 import { Ex05Component } from './ex05/ex05.component';
 import { Ex06Component } from './ex06/ex06.component';
 import { Ex07Component } from './ex07/ex07.component';
+import { Ex08Component } from './ex08/ex08.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -24,7 +25,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTooltipModule } from '@angular/material/tooltip';
-
 
 @NgModule({
   declarations: [
@@ -38,6 +38,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     Ex05Component,
     Ex06Component,
     Ex07Component,
+    Ex08Component,
   ],
   imports: [
     BrowserModule,

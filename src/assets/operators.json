@@ -24,6 +24,14 @@
       "marblesUrl": "https://rxmarbles.com/#concat"
     },
 
+    "forkJoin": {
+      "name": "forkJoin",
+      "type": "join creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/forkJoin",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/forkjoin",
+      "marblesUrl": ""
+    },
+
     "from": {
       "name": "from",
       "type": "creation operator",
@@ -126,6 +134,14 @@
       "rxjsdevUrl": "https://rxjs.dev/api/index/function/timer",
       "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/creation/timer",
       "marblesUrl": "https://rxmarbles.com/#timer"
+    },
+
+    "zip": {
+      "name": "zip",
+      "type": "join creation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/index/function/zip",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/combination/zip",
+      "marblesUrl": "https://rxmarbles.com/#zip"
     }
 
   }

@@ -16,6 +16,10 @@ import { Ex05Component } from './ex05/ex05.component';
 import { Ex06Component } from './ex06/ex06.component';
 import { Ex07Component } from './ex07/ex07.component';
 import { Ex08Component } from './ex08/ex08.component';
+import { Ex09Component } from './ex09/ex09.component';
+// import { Ex10Component } from './ex10/ex10.component';
+// import { Ex11Component } from './ex11/ex11.component';
+// import { Ex12Component } from './ex12/ex12.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -39,6 +43,10 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     Ex06Component,
     Ex07Component,
     Ex08Component,
+    Ex09Component,
+    // Ex10Component,
+    // Ex11Component,
+    // Ex12Component,
   ],
   imports: [
     BrowserModule,

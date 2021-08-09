@@ -2,9 +2,9 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { pluck, skip } from 'rxjs/operators';
+import { combineLatest, fromEvent, interval, Subscription } from 'rxjs';
 
 import { HighlightService } from '../highlight.service';
-import { combineLatest, fromEvent, interval, Subscription, timer } from 'rxjs';
 
 @Component({
   selector: 'app-ex08',

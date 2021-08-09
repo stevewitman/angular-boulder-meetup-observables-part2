@@ -8,6 +8,46 @@
       "marblesUrl": "https://rxmarbles.com/#ajax"
     },
 
+    "buffer": {
+      "name": "buffer",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/buffer",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/buffer",
+      "marblesUrl": "https://rxmarbles.com/#buffer"
+    },
+
+    "bufferCount": {
+      "name": "bufferCount",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/bufferCount",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/buffercount",
+      "marblesUrl": "https://rxmarbles.com/#bufferCount"
+    },
+
+    "bufferTime": {
+      "name": "bufferTime",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/bufferTime",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/buffertime",
+      "marblesUrl": "https://rxmarbles.com/#bufferTime"
+    },
+
+    "bufferToggle": {
+      "name": "bufferToggle",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/bufferToggle",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/buffertoggle",
+      "marblesUrl": "https://rxmarbles.com/#bufferToggle"
+    },
+
+    "bufferWhen": {
+      "name": "bufferWhen",
+      "type": "transformation operator",
+      "rxjsdevUrl": "https://rxjs.dev/api/operators/bufferWhen",
+      "learnrxUrl": "https://www.learnrxjs.io/learn-rxjs/operators/transformation/bufferwhen",
+      "marblesUrl": "https://rxmarbles.com/#bufferWhen"
+    },
+
     "combineLatest": {
       "name": "combineLatestWith",
       "type": "join creation operator",

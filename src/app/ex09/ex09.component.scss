@@ -29,3 +29,15 @@ pre:hover {
     background-color: #ADFF2F19;
   }
 }
+
+.actions {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.triggerButtonActive {
+  background-color: black;
+  color: #ADFF2F;
+  -webkit-box-shadow: 0px 0px 7px 3px #ADFF2F; 
+  box-shadow: 0px 0px 7px 3px #ADFF2F;
+}

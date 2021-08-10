@@ -3,7 +3,7 @@
 <app-operator [operator]="'ajax'"></app-operator>
   
   
-<pre ngNonBindable (click)="ajax()" [class.active] = "active === 'ajax'"><code class="language-typescript">ajax('https://jsonplaceholder.typicode.com/users')
+<pre ngNonBindable (click)="ajax1()" [class.active] = "active === 'ajax1'"><code class="language-typescript">ajax('https://jsonplaceholder.typicode.com/users')
   .pipe(
     tap(val => this.val = val)
   )
@@ -17,7 +17,7 @@
     
 <app-operator [operator]="'pluck'"></app-operator>
 
-<pre ngNonBindable (click)="ajaxPluck()" [class.active] = "active === 'ajaxPluck'"><code class="language-typescript">ajax('https://jsonplaceholder.typicode.com/users')
+<pre ngNonBindable (click)="ajaxPluck1()" [class.active] = "active === 'ajaxPluck1'"><code class="language-typescript">ajax('https://jsonplaceholder.typicode.com/users')
   .pipe(
     pluck('response'),
     tap(val => this.val = val)

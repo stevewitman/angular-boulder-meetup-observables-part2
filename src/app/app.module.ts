@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HighlightService } from './highlight.service';
@@ -17,15 +18,17 @@ import { Ex06Component } from './ex06/ex06.component';
 import { Ex07Component } from './ex07/ex07.component';
 import { Ex08Component } from './ex08/ex08.component';
 import { Ex09Component } from './ex09/ex09.component';
-// import { Ex10Component } from './ex10/ex10.component';
-// import { Ex11Component } from './ex11/ex11.component';
+import { Ex10Component } from './ex10/ex10.component';
+import { Ex11Component } from './ex11/ex11.component';
 // import { Ex12Component } from './ex12/ex12.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -44,8 +47,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     Ex07Component,
     Ex08Component,
     Ex09Component,
-    // Ex10Component,
-    // Ex11Component,
+    Ex10Component,
+    Ex11Component,
     // Ex12Component,
   ],
   imports: [
@@ -53,11 +56,14 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatFormFieldModule,
     MatSidenavModule,
     MatIconModule,
+    MatInputModule,
     MatListModule,
     MatMenuModule,
     MatTooltipModule,

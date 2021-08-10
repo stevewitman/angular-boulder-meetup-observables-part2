@@ -42,10 +42,10 @@ export class Ex05Component implements OnInit, OnDestroy {
     this.subscriptions.add(timer$);
   }
 
-  mergeWith1() {
-    this.active = 'mergeWith1';
+  merge1() {
+    this.active = 'merge1';
     console.clear();
-    this.logInConsole('mergeWith() example started ...');
+    this.logInConsole('merge() example started ...');
     const stream0$ = interval(1500).pipe(mapTo('00'));
     const stream1$ = interval(2400).pipe(mapTo('01'));
     const stream2$ = interval(3200).pipe(mapTo('10'));

@@ -6,7 +6,7 @@
 
 <pre ngNonBindable (click)="pipeTap1()" [class.active] = "active === 'pipeTap1'"><code class="language-typescript">this.http.get('https://jsonplaceholder.typicode.com/users')
   .pipe(
-    tap(val => console.log('DATA:', val)),
+    tap(val => console.log('DATA:', val))
   )
   .subscribe();
 </code></pre>

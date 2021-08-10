@@ -28,7 +28,8 @@ export class Ex04Component implements OnInit {
     this.highlightService.highlightAll();
   }
 
-  ajax() {
+  ajax1() {
+    this.active = 'ajax1';
     console.clear();
     ajax('https://jsonplaceholder.typicode.com/users')
       .pipe(
@@ -37,7 +38,8 @@ export class Ex04Component implements OnInit {
       .subscribe(console.log);
   }
 
-  ajaxPluck() {
+  ajaxPluck1() {
+    this.active = 'ajaxPluck1';
     console.clear();
     ajax('https://jsonplaceholder.typicode.com/users')
       .pipe(

@@ -34,7 +34,7 @@ export class Ex06Component implements OnInit, OnDestroy {
   }
 
   take1() {
-    this.active = 'take';
+    this.active = 'take1';
     console.clear();
     this.logInConsole('completes after 5 values ...');
     interval(400).

@@ -9,8 +9,8 @@ import { Ex06Component } from './ex06/ex06.component';
 import { Ex07Component } from './ex07/ex07.component';
 import { Ex08Component } from './ex08/ex08.component';
 import { Ex09Component } from './ex09/ex09.component';
-// import { Ex10Component } from './ex10/ex10.component';
-// import { Ex11Component } from './ex11/ex11.component';
+import { Ex10Component } from './ex10/ex10.component';
+import { Ex11Component } from './ex11/ex11.component';
 // import { Ex12Component } from './ex12/ex12.component';
 
 const routes: Routes = [
@@ -23,8 +23,8 @@ const routes: Routes = [
   { path: 'example-7', component: Ex07Component },
   { path: 'example-8', component: Ex08Component },
   { path: 'example-9', component: Ex09Component },
-  // { path: 'example-10', component: Ex10Component },
-  // { path: 'example-11', component: Ex11Component },
+  { path: 'example-10', component: Ex10Component },
+  { path: 'example-11', component: Ex11Component },
   // { path: 'example-12', component: Ex12Component },
 ];
 

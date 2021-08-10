@@ -21,7 +21,7 @@
 }
 .toolbar {
   background-color: #65D9EF;
-  color: #000;
+  color: black;
 }
 .mat-nav-list {
   padding: 0;
@@ -42,9 +42,12 @@
 }
 
 ::ng-deep .menu-tooltip {
-  background: #65D9EF;
-  color: black !important;
+  line-height: 32px;
+  background: #212121;
+  color: #ADFF2F !important;
   font-size: 16px;
   font-family: monospace;
-  max-width: 400px !important;
+  max-width: 550px !important;
+  transform: translateY(0px) translateX(-24px) !important;
+  border-radius: 0 !important;
 }
